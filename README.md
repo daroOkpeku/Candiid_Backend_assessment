@@ -12,3 +12,16 @@ php artisan migrate
 
 To run the application 
 php artisan serve
+
+
+please add this in your laravel .env file
+
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=XXXXXXXX
+MAIL_PASSWORD=XXXXXXXXXXX
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=XXXXXXXX
+MAIL_FROM_NAME="${APP_NAME}"
